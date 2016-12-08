@@ -23,7 +23,7 @@
 
 
 
-with open("D2.txt") as file:
+with open("input/D2.txt") as file:
     instructions = file.read().split()
 
 keypad = [  # a list of lists, each list is a row

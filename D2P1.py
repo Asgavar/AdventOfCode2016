@@ -29,7 +29,7 @@
 # Your puzzle input is the instructions from the document you found at the front desk. What is the bathroom code?
 
 
-with open("D2.txt") as file:
+with open("input/D2.txt") as file:
     instructions = file.read().split()
 
 keypad = [  # a list of 3 lists

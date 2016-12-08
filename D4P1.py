@@ -16,7 +16,7 @@
 # What is the sum of the sector IDs of the real rooms?
 
 
-with open("D4.txt") as file:
+with open("input/D4.txt") as file:
     lines = file.read().split()   # list of lines
 
 

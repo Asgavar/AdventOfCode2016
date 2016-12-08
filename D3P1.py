@@ -17,7 +17,7 @@ def triangle_or_not(sides):
     return True if longest_side < sum(sides) else False
 
 
-with open("D3.txt") as file:
+with open("input/D3.txt") as file:
     lines = file.read().split("\n")   # with spaces at the beginning of each line
 
 sides_as_strings = [line.split() for line in lines][:len(lines)-1]   # because the last line is  empty

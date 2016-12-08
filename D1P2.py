@@ -9,7 +9,7 @@
 # How many blocks away is the first location you visit twice?
 
 
-with open("D1.txt") as file:
+with open("input/D1.txt") as file:
     instructions = file.read().replace(",", "").split()
 
 facing = 0   # north

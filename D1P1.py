@@ -16,7 +16,7 @@
 # How many blocks away is Easter Bunny HQ?
 
 
-with open("D1.txt") as file:
+with open("input/D1.txt") as file:
     instructions = file.read().replace(",", "").split()
 
 facing = 0   # north
